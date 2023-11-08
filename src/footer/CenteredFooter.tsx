@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import type { ReactNode } from 'react';
 
 import { FooterCopyright } from './FooterCopyright';
@@ -11,7 +12,7 @@ type ICenteredFooterProps = {
 
 const CenteredFooter = (props: ICenteredFooterProps) => (
   <div className="text-center">
-    {props.logo}
+    <Image src="/apple-touch-icon.png" width={150} height={150} alt="logo" />
 
     <nav>
       <ul className="navbar mt-5 flex flex-row justify-center text-xl font-medium text-gray-800">
@@ -35,6 +36,6 @@ const CenteredFooter = (props: ICenteredFooterProps) => (
 
 export { CenteredFooter };
 
-//<div className="mt-8 flex justify-center">
-//<FooterIconList>{props.iconList}</FooterIconList>
-//</div>
+// <div className="mt-8 flex justify-center">
+// <FooterIconList>{props.iconList}</FooterIconList>
+// </div>

@@ -1,4 +1,4 @@
-import Link from 'next/link';
+import Image from 'next/image';
 import type { ReactNode } from 'react';
 
 type INavbarProps = {
@@ -9,7 +9,7 @@ type INavbarProps = {
 const NavbarTwoColumns = (props: INavbarProps) => (
   <div className="flex flex-wrap items-center justify-between">
     <div>
-      <Link href="/">{props.logo}</Link>
+      <Image src="/apple-touch-icon.png" width={150} height={150} alt="logo" />
     </div>
 
     <nav>
