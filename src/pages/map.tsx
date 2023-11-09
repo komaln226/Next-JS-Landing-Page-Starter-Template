@@ -20,7 +20,7 @@ const Maps = () => (
         </li>
       </NavbarTwoColumns>
     </Section>
-    <Map />;
+    <Map />
     <Footer />
   </>
 );
