@@ -63,10 +63,9 @@ const Footer = () => (
           <Link href="/">Maps</Link>
         </li>
         <li>
-          <Link href="/">Opt In</Link>
+          <Link href="/optin">Opt In</Link>
         </li>
-        <li>
-        </li>
+        <li></li>
       </CenteredFooter>
     </Section>
   </Background>
