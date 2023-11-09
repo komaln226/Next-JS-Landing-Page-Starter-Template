@@ -10,7 +10,7 @@ const Banner = () => (
       title="Get up to date updates via SMS for wildfires in your area."
       subtitle="Opt In!"
       button={
-        <Link href="https://creativedesignsguru.com/category/nextjs/">
+        <Link href="/optin" passHref>
           <Button>OPT IN!</Button>
         </Link>
       }

@@ -20,7 +20,9 @@
     "next-seo": "^6.1.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "styled-jsx-plugin-postcss": "^4.0.1"
+    "request": "^2.88.2",
+    "styled-jsx-plugin-postcss": "^4.0.1",
+    "twilio": "^4.19.0"
   },
   "devDependencies": {
     "@next/bundle-analyzer": "^14.0.0",

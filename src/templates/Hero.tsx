@@ -17,7 +17,7 @@ const Hero = () => (
           </Link>
         </li>
         <li>
-          <Link href="/">Opt In</Link>
+          <Link href="/optin">Opt In</Link>
         </li>
       </NavbarTwoColumns>
     </Section>
@@ -32,7 +32,7 @@ const Hero = () => (
         }
         description="Prediction, Forecasting, and Alerting about Wildfires in your area."
         button={
-          <Link href="https://creativedesignsguru.com/category/nextjs/">
+          <Link href="/optin">
             <Button xl>Opt In</Button>
           </Link>
         }
