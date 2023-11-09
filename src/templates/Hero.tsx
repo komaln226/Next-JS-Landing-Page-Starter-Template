@@ -30,7 +30,7 @@ const Hero = () => (
             <span className="text-primary-500">EmberAlert</span>
           </>
         }
-        description="Prediction, Forecasting, and Alerting about Wildfires in your area."
+        description="Detection, Forecasting, and Alerting about Wildfires in your area."
         button={
           <Link href="/optin">
             <Button xl>Opt In</Button>
