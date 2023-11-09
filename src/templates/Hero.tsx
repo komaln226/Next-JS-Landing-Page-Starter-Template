@@ -36,7 +36,7 @@ const Hero = () => (
             </div>
           </>
         }
-        description="Prediction, Forecasting, and Alerting about Wildfires in your area."
+        description="Detection, Forecasting, and Alerting about Wildfires in your area."
         button={
           <Link href="https://creativedesignsguru.com/category/nextjs/">
             <Button xl>OPT IN</Button>
