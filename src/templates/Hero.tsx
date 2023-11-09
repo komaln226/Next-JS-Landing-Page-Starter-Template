@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import Link from 'next/link';
 
 import { Background } from '../background/Background';
@@ -27,13 +28,20 @@ const Hero = () => (
         title={
           <>
             {'Know about wildfires in your area with\n'}
-            <span className="text-primary-500">EmberAlert</span>
+            <div style={{ display: 'flex', justifyContent: 'center' }}>
+              <Image
+                src="/apple-touch-icon.png"
+                width={240}
+                height={240}
+                alt="logo"
+              />
+            </div>
           </>
         }
         description="Detection, Forecasting, and Alerting about Wildfires in your area."
         button={
-          <Link href="/optin">
-            <Button xl>Opt In</Button>
+          <Link href="https://creativedesignsguru.com/category/nextjs/">
+            <Button xl>OPT IN</Button>
           </Link>
         }
       />
