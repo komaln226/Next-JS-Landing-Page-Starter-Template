@@ -13,9 +13,7 @@ const OptIn = () => (
     <Section yPadding="py-6">
       <NavbarTwoColumns logo={<Logo xl />}>
         <li>
-          <Link href="https://github.com/ixartz/Next-JS-Landing-Page-Starter-Template">
-            Maps
-          </Link>
+          <Link href="/map">Maps</Link>
         </li>
         <li>
           <Link href="/optin">Opt In</Link>
