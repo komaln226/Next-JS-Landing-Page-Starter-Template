@@ -18,20 +18,20 @@ const VerticalFeatures = () => (
   >
     <VerticalFeatureRow
       title="Detection"
-      description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse bibendum, nunc non posuere consectetur, justo erat semper enim, non hendrerit dui odio id enim."
+      description="By ultilizting live data from MODIS sensors, we detect, track, and label current wildfires across Canada and the USA, providing live updates every 10 minutes for the most up-to-date insights on current fires."
       image="/assets/images/image1.jpeg"
       imageAlt="First feature alt text"
     />
     <VerticalFeatureRow
       title="Forecast"
-      description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse bibendum, nunc non posuere consectetur, justo erat semper enim, non hendrerit dui odio id enim."
+      description="Powered by a deep learning AI model, our forecast provides a prediction of how current fires will grow over the next 24 hours."
       image="/assets/images/image2.jpeg"
       imageAlt="Second feature alt text"
       reverse
     />
     <VerticalFeatureRow
       title="Alert"
-      description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse bibendum, nunc non posuere consectetur, justo erat semper enim, non hendrerit dui odio id enim."
+      description="Stay ahead of the fire with our alert system. Users can sign up for live updates for a specific location, receiving SMS notifications on whether a nearby fire is predicted to pose a potential danger to them. In addition, we will provide users with evacuation alerts from their local officials."
       image="/assets/images/image3.jpeg"
       imageAlt="Third feature alt text"
     />
