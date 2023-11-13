@@ -20,7 +20,8 @@ const OptIn = () => (
         </li>
       </NavbarTwoColumns>
     </Section>
-    <OptInForm />;
+    <div style={{ margin: '60px 0' }}></div>
+    <OptInForm />;<div style={{ margin: '60px 0' }}></div>
     <Footer />
   </>
 );

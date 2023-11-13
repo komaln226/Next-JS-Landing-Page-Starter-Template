@@ -6,7 +6,7 @@ import {
 } from '@react-google-maps/api';
 import { useCallback, useState } from 'react';
 
-const API_KEY = 'AIzaSyDHJYd6kPZcD-L_ieLwWE3HNug1KKYMHUQ';
+const API_KEY = process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY as string;
 
 const containerStyle = { width: '100vw', height: '100vh' };
 

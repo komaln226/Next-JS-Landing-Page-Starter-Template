@@ -183,9 +183,11 @@ const OptInForm = () => {
         </div>
 
         {/* Submit Button */}
-        <SubmitButton isLoading={loading} xl>
-          Submit
-        </SubmitButton>
+        <div style={{ display: 'flex', justifyContent: 'center' }}>
+          <SubmitButton isLoading={loading} xl>
+            Submit
+          </SubmitButton>
+        </div>
 
         {/* Success/Error Messages */}
         {success && (
